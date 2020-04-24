@@ -1,5 +1,5 @@
 # 编译类型: release/debug
-BUILD_TYPE                  	= release
+BUILD_TYPE                  	= debug
 # Makefile编译打印 echo
 DEBUG_MAKEFILE                  = n
 
@@ -8,7 +8,7 @@ PLATFORM_CC                 	= gcc
 PLATFORM_AR                 	= ar
 PLATFORM_OS                 	= linux
 PLATFORM_SSL					= mbedtls
-PLATFORM_AT_DEV					= esp8266
+PLATFORM_AT_DEV					= air800
 
 # 交叉编译工具链示例
 # PLATFORM_CC                 = /opt/openwrt/packages/toolchain/mipsel-linux-gcc
